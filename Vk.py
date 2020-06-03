@@ -2,7 +2,7 @@ from urllib.parse import urlencode
 from pprint import pprint
 import requests
 
-APP_ID = 7490365
+APP_ID = 7497406
 OAUTH_URL = 'https://oauth.vk.com/authorize'
 OAUTH_PARAMS = {
     'client_id': APP_ID,
@@ -12,8 +12,8 @@ OAUTH_PARAMS = {
     'v': '5.52'
 }
 
-TOKEN = 'c67b8de203d401deeea696fd415c28fd2af1c9022f18a6c13d294c0fa866c065dd0c13ab5dacad3878139'
-TOKEN2 = 'eec04b1980aafb5d1ff96463af0ea1fd169dbf32cc15a7fd69ee950b416087f6820b28996cc13ee788dbd'
+TOKEN = 'c38edc1d1df4ac74d2dbe21635494221219418efbc16581bf5c0c278123bdfb345465693e1dd12e253645'
+TOKEN2 = '7a2c81acba1f21dd4cd60d511f7605f1068826bb663e0222f18e7910e80f9a161631a2a54b11331b0241f'
 
 
 class User:
